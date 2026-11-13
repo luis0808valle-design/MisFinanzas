@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Moneda grande -->
+    <path
+        android:fillColor="#FBBF24"
+        android:strokeColor="#B45309"
+        android:strokeWidth="1.2"
+        android:pathData="M37,16 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 Z" />
+    <path
+        android:strokeColor="#B45309"
+        android:strokeWidth="0.9"
+        android:pathData="M40.5,16 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0 Z" />
+    <!-- Moneda pequeña -->
+    <path
+        android:fillColor="#FCD34D"
+        android:strokeColor="#B45309"
+        android:strokeWidth="1"
+        android:pathData="M8,26 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 Z" />
+    <!-- Cuerpo de la bolsa -->
+    <path
+        android:fillColor="#FBBF24"
+        android:strokeColor="#B45309"
+        android:strokeWidth="1.4"
+        android:pathData="M16,46 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 Z" />
+    <!-- Lazo -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M20,22 L32,30 L44,22 L42,32 L22,32 Z" />
+    <!-- Signo $ -->
+    <path
+        android:strokeColor="#92400E"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M37.5,41 Q37.5,38.5 32,38.5 Q26.5,38.5 26.5,42.5 Q26.5,46 32,47 Q37.5,48 37.5,51.5 Q37.5,55 32,55 Q26.5,55 26.5,52" />
+    <path
+        android:strokeColor="#92400E"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M32,35.5 L32,58" />
+</vector>
